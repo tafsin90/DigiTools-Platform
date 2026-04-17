@@ -1,12 +1,14 @@
 
 import './App.css'
+import Homepage from './components/homepage/Homepage';
+import Navbar from './components/homepage/Navbar';
 
 function App() {
   return (
     <>
-      <h2 className='text-red-500 bg-black text-center text-3xl'>Hello</h2>
+      <Homepage></Homepage>
     </>
-  )
+  );
 }
 
 export default App
