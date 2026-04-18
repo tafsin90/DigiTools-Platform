@@ -1,12 +1,14 @@
 import React, { use } from "react";
 import { FaCheck } from "react-icons/fa6";
 import { badgeColor, gradients } from "../../styles";
+import { toast } from "react-toastify";
 
 function Card({ dataPromise, cartItems, setCartItems }) {
   const datas = use(dataPromise);
 
   const handleSubscribe = (data) => {
     setCartItems([...cartItems, data]);
+    toast.info('Added to cart')
     
   };
 

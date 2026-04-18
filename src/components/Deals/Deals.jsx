@@ -26,13 +26,21 @@ function Deals({ cartItems, setCartItems }) {
 
       <div className="flex justify-center items-center gap-3 my-10">
         <button
-          className={`px-4 py-2 ${gradients.primary} text-white font-bold rounded-full hover:cursor-pointer`}
+          className={`${
+            chooseBtn
+              ? `px-4 py-2 ${gradients.primary} text-white font-bold rounded-full hover:cursor-pointer`
+              : `px-4 py-2 font-bold rounded-full border border-indigo-500 hover:cursor-pointer`
+          }`}
           onClick={() => setChooseBtn(true)}
         >
           Products
         </button>
         <button
-          className="px-4 py-2 font-bold rounded-full border border-indigo-500 hover:cursor-pointer"
+          className={`${
+            !chooseBtn
+              ? `px-4 py-2 ${gradients.primary} text-white font-bold rounded-full hover:cursor-pointer`
+              : `px-4 py-2 font-bold rounded-full border border-indigo-500 hover:cursor-pointer`
+          }`}
           onClick={() => setChooseBtn(false)}
         >
           Cart ({cartItems.length})
