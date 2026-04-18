@@ -59,12 +59,12 @@ function Pricing() {
             <div className="flex-1 space-y-3">
               <div className="space-y-1">
                 <h1 className="font-semibold text-2xl text-white">Pro</h1>
-                <p className="text-slate-600 text-base text-white">
+                <p className="text-base text-white">
                   Best for Professionals
                 </p>
               </div>
-              <p className="text-slate-600 text-white">
-                <span className="text-black font-bold text-3xl text-white">
+              <p className="text-white">
+                <span className="font-bold text-3xl text-white">
                   $29
                 </span>
                 /Month
