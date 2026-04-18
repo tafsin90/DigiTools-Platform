@@ -2,7 +2,7 @@ import React from "react";
 import { IoCartOutline } from "react-icons/io5";
 import { gradients } from "../../styles";
 
-function Navbar() {
+function Navbar({cartItems}) {
   return (
       <div className="navbar bg-base-100 shadow-sm px-[10%] py-4">
         <div className="hover:cursor-pointer navbar-start">
@@ -27,7 +27,10 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <div className="navbar-end gap-4 items-center">
+        <div className="navbar-end gap-4 items-center relative">
+          {
+            cartItems.length > 0 ? <p className="absolute right-53 bottom-5 bg-red-500 rounded-full h-5 w-5 text-white text-sm flex justify-center items-center">{cartItems.length}</p> : ""
+          }
           <IoCartOutline className="text-2xl hover:cursor-pointer"></IoCartOutline>
           <p className="text-xl hover:cursor-pointer">Login</p>
           <a className={`btn rounded-full text-lg p-5 ${gradients.primary} text-white`}>Get Started</a>
