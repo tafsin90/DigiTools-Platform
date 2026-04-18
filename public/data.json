@@ -5,8 +5,8 @@
     "description": "Build ATS-friendly resumes in minutes with smart templates.",
     "price": 12,
     "period": "monthly",
-    "tag": "popular",
-    "tagType": "popular",
+    "tag": "new",
+    "tagType": "new",
     "features": ["100+ ATS templates", "AI suggestions", "Export to PDF"],
     "icon": "/icons/design-tool.png"
   },
@@ -49,8 +49,8 @@
     "description": "Practice technical interviews with real questions.",
     "price": 10,
     "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best_seller",
+    "tag": "popular",
+    "tagType": "popular",
     "features": ["Mock interviews", "DSA questions", "HR question bank"],
     "icon": "/icons/social-media.png"
   },
@@ -71,8 +71,8 @@
     "description": "Ready-made landing pages for startups and SaaS products.",
     "price": 39,
     "period": "one-time",
-    "tag": "popular",
-    "tagType": "popular",
+    "tag": "best seller",
+    "tagType": "best_seller",
     "features": ["10+ landing pages", "Fully responsive", "Conversion optimized"],
     "icon": "/icons/writing_2327400 1.png"
   },
