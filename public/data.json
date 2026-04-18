@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Build ATS-friendly resumes in minutes with smart templates.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ ATS templates", "AI suggestions", "Export to PDF"],
+    "icon": "/icons/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Kit",
+    "description": "Create stunning developer portfolios with zero coding hassle.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best_seller",
+    "features": ["Drag & drop builder", "Responsive design", "SEO optimized"],
+    "icon": "/icons/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Code Mentor AI",
+    "description": "AI-powered coding assistant for learning and debugging.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Real-time code help", "Bug detection", "Explain code logic"],
+    "icon": "/icons/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "UI Design Pack",
+    "description": "Premium UI components for fast frontend development.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["500+ components", "Figma + React files", "Dark/light mode support"],
+    "icon": "/icons/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Hub",
+    "description": "Practice technical interviews with real questions.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best_seller",
+    "features": ["Mock interviews", "DSA questions", "HR question bank"],
+    "icon": "/icons/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Cybersecurity Starter",
+    "description": "Begin your ethical hacking journey with guided labs.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Linux labs", "Network basics", "CTF challenges"],
+    "icon": "/icons/writing_2327400 1.png"
+  },
+  {
+    "id": 7,
+    "name": "Startup Landing Kit",
+    "description": "Ready-made landing pages for startups and SaaS products.",
+    "price": 39,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["10+ landing pages", "Fully responsive", "Conversion optimized"],
+    "icon": "/icons/writing_2327400 1.png"
+  },
+  {
+    "id": 8,
+    "name": "Dev Productivity Suite",
+    "description": "Tools to boost your coding productivity and workflow.",
+    "price": 18,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best_seller",
+    "features": ["Task manager", "Code snippets vault", "Pomodoro timer"],
+    "icon": "/icons/writing_2327400 1.png"
+  }
+]

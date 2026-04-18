@@ -4,7 +4,7 @@ import { gradients } from "../../styles";
 
 function Navbar() {
   return (
-      <div className="navbar bg-base-100 shadow-sm px-[10%]">
+      <div className="navbar bg-base-100 shadow-sm px-[10%] py-4">
         <div className="hover:cursor-pointer navbar-start">
           <a className={`text-4xl font-bold ${gradients.primary} bg-clip-text text-transparent`}>DigiTools</a>
         </div>
