@@ -4,7 +4,7 @@ import Hero from "./Hero";
 
 function Homepage({ cartItems }) {
   return (
-    <div>
+    <div className="pt-24">
       <Navbar cartItems={cartItems}></Navbar>
       <Hero></Hero>
     </div>
