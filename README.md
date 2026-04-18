@@ -1,18 +1,80 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite landing page for a digital tools platform built with Tailwind CSS and DaisyUI.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive homepage layout
+- Fixed navbar
+- Pricing cards
+- Product deals section
 
-## React Compiler
+## Tech stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Icons
+- React Toastify
 
-Note: This will impact Vite dev & build performances.
+## Install locally
 
-## Expanding the ESLint configuration
+1. Open a terminal in the project folder.
+2. Install dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+```
+
+3. If you need to install additional UI packages manually, run:
+
+```bash
+npm install tailwindcss daisyui react-icons react-toastify
+```
+
+### Package install links
+
+- DaisyUI: https://daisyui.com/docs/install/
+- Tailwind CSS (Vite): https://tailwindcss.com/docs/installation/using-vite
+- React Icons: https://react-icons.github.io/react-icons/
+- React Toastify: https://www.npmjs.com/package/react-toastify
+
+> Note: For this project, these packages are already included in `package.json`, so `npm install` is usually sufficient.
+
+## Run locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the URL shown in terminal, usually:
+
+```bash
+http://localhost:5173
+```
+
+## Build for production
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Project structure
+
+- `src/` - application source files
+- `src/components/` - React components
+- `public/` - static assets and JSON data
+- `package.json` - project metadata and npm scripts
+
+## Notes
+
+This project uses Vite as the development server and build tool, with Tailwind CSS for styling and DaisyUI components for UI structure.
